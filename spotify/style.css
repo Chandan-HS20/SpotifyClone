@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.left{
+    width:22vw;
+    padding: 0px 0px 0px 0px;
+    /* overflow:-moz-hidden-unscrollable; */
+    
+}
+.home{
+    padding: 12px 0px 4px 14px;
+}
+.home ul li{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    width: 23px;
+    padding: 12px  ;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+.library{
+    min-height:77vh ;
+    position: relative;
+    
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+    align-items: center;
+}
+.header .button button:last-child{
+    border-radius: 24px;
+    padding: 15px 30px 15px 30px;
+    font-family: 'Cabin', sans-serif ;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+}
+.header .button button{
+
+    background: none;
+    color: white;
+    border: none;
+    font-family: 'Cabin', sans-serif ;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.heading{
+    display: flex;
+    gap: 14px;
+    padding: 14px 13px 13px 26px ;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    align-items: center;
+
+}
+.button img{
+    rotate: 90deg;
+    filter: invert();
+    height:32px;
+}
+.button span{
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.footer{
+    display:flex;
+    font-size:10px;
+    gap:5px;
+    position: absolute;
+    bottom: 0%;
+    padding: 20px;
+
+}
+.footer a{
+    font-family: 'Cabin', sans-serif;
+   
+    color:grey;
+    
+    
+}
+.heading img{
+    width:23px
+    
+}
+
+.right{
+    width:77vw;
+    margin:7px 7px 4px 2px;
+    overflow: scroll;
+}
+.header{
+    position: sticky;
+    /* margin-right: 4px; */
+    display: flex;
+    justify-content: space-between;
+    background-color:#0a0a0a;
+    height: 64px;
+    align-items: center;
+    
+}
+ .header > *{
+    padding: 25px;
+ }
+
+ .nav img{
+    /* border: 2px solid; */
+    border-radius: 45px;
+    background-color:rgb(251, 249, 249);
+    filter: invert();
+    padding: 3px;
+ }
+ .Spotify-playlists{
+    /* margin-right: 4px; */
+    padding:25px 25px 25px 25px ;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    min-height:88vh ;
+    
+ }
+ 
+ .play{
+    
+    width:15px;height: 15px;background-color: #1FDF64;border-radius: 50%; 
+    padding: 14px;
+    position: absolute;
+    bottom: 111px;
+    right:20px;
+    opacity: 1;
+    transition:all 1s ease-out;
+ }
+.card{
+    position: relative;
+} 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 184.23px;
+    height: 255.543px;
+    background-color:#1a1a1a;
+    
+    padding: 7px 0px 10px 0px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.card  img {
+    width: 151.433px;
+    height: 151.433px;
+    object-fit: cover;
+    padding-top:20px;
+    border-radius: 7px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:8px;
+    padding: 15px;
+    width:152.84px;
+    height:86.56px;
+} 
+
+.head{
+    /* height: 26px; */
+    letter-spacing: 1.1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.paragraph {
+    color:#6a6a6a;
+    letter-spacing: 0.3px;
+    font-size:15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+.card-container{
+    padding-top: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* column-gap:24px; */
+    row-gap: 24px;
+
+}
